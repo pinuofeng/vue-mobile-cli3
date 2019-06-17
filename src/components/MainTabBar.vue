@@ -61,12 +61,12 @@
 <style scoped>
 
     .tabbar {
-        border-top: 1px solid #ccc;
+        border-top: 1PX solid #ccc;
     }
 
     .icon {
-        width: .6rem;
-        height: .6rem;
+        width: 20px;
+        height: 20px;
     }
 
 </style>

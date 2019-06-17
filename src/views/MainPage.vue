@@ -2,7 +2,7 @@
     <div class="page-container">
 
         <keep-alive>
-            <router-view></router-view>
+            <router-view :key="key"></router-view>
         </keep-alive>
 
         <!-- 底部菜单 -->
@@ -17,7 +17,12 @@
     import MainTabBar from 'components/MainTabBar.vue'
     export default {
         name: "MainPage",
-        components: {MainTabBar}
+        components: {MainTabBar},
+        computed: {
+            key() {
+                return this.$route.fullPath
+            }
+        }
     }
 </script>
 
