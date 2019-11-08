@@ -3,28 +3,28 @@
         <van-tabbar-item replace to="/Discover">
             <span>发现</span>
             <img
-                    class="icon"
-                    slot="icon"
-                    slot-scope="props"
-                    :src="props.active ? main.active : main.normal"
+                class="icon"
+                slot="icon"
+                slot-scope="props"
+                :src="props.active ? main.active : main.normal"
             >
         </van-tabbar-item>
         <van-tabbar-item  replace to="/Mine">
             <span>我的</span>
             <img
-                    class="icon"
-                    slot="icon"
-                    slot-scope="props"
-                    :src="props.active ? music.active : music.normal"
+                class="icon"
+                slot="icon"
+                slot-scope="props"
+                :src="props.active ? music.active : music.normal"
             >
         </van-tabbar-item>
         <van-tabbar-item  replace to="/Account">
             <span>账号</span>
             <img
-                    class="icon"
-                    slot="icon"
-                    slot-scope="props"
-                    :src="props.active ? mine.active : mine.normal"
+                class="icon"
+                slot="icon"
+                slot-scope="props"
+                :src="props.active ? mine.active : mine.normal"
             >
         </van-tabbar-item>
     </van-tabbar>
